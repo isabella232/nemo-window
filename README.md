@@ -15,6 +15,9 @@
 	nemo.window.mainHandle	: retrieve parent window handle
 ```
 
+
+
+
 #### switchTab(windowHandle)
 
 Switches focus to particular Window/Tab in browser.
@@ -136,6 +139,11 @@ Please find the example at the end.
 nemo.window.handle().then(callback);
 ```
 
+
+
+
+
+
 ### Installation
 
 `npm install nemo-window --save-dev`
@@ -157,11 +165,11 @@ Add `nemo-window` plugin to your `config/config.json` under `plugins` section.
 ```
 
 ### Example
-```bash
+```javascript
 
 //this example assumes that window[A] is already launched by nemo
 
-//launch new window[B] and navigate to PayPal.com. Note that it automatically switch focus to new window[B]
+//launch new window[B] and navigate to PayPal.com. Note: it automatically switches focus to new window[B]
 nemo.window.newWindow('http://www.paypal.com');
 
 //get new window[B] handle
@@ -176,7 +184,7 @@ nemo.window.switchTab(); //focus is on window[A]
 //switch to window[B]
 nemo.window.switchTab(); //focus is on window[B]
 
-//close window[B] since the current focus is on window[B]. Note that it will automatically switch the focus to window[A]
+//close window[B] since the current focus is on window[B]. Note: it automatically switches focus to window[A]
 nemo.window.close(); //close currently focused window
 
 //this returns window[A] handle
