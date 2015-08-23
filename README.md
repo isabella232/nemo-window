@@ -22,10 +22,10 @@
 
 Switches focus to particular Window/Tab in browser.
 
-* If `windowHandle` is not provided, then it switches focus alternatively between two windows.
-* If `windowHandle` is provided, then switches focus to particular window handle.
+* If `windowHandle` is not provided, switches focus alternatively.
+* If `windowHandle` is provided, switches focus to particular window handle.
 
-`@argument windowHandle {String} (optional, default switch tabs between two windows)`
+`@argument windowHandle {String} (Optional)`
 
 `@returns {Web driver Promise}`
 
@@ -51,13 +51,13 @@ Switches focus to another frame on page. `id` is required argument.
 
 Please find the example at the end.
 
-`@argument id {String} (required)`
+`@argument id {String} (Required)`
 
 `@returns {Web driver Promise}`
 
 ###### Usage:
 ```javascript
-nemo.window.switchFrame('payPalTarget'); //switch focus to particular frame on page
+nemo.window.switchFrame('paypalTarget'); //switch focus to particular frame 'paypalTarget' on page
 ```
 
 #### close()
@@ -90,8 +90,8 @@ Name the new Window if `name` is provided. It is Optional.
 
 Please find the example at the end.
 
-`@arguments url {String} (optional)`
-`@arguments name {String} (optional)`
+`@arguments url {String} (Optional)`
+`@arguments name {String} (Optional)`
 
 `@returns {Web driver Promise}`
 
