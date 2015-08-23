@@ -25,13 +25,13 @@ Switches focus to particular Window/Tab in browser.
 * If `windowHandle` is not provided, then it switches focus alternatively between two windows.
 * If `windowHandle` is provided, then switches focus to particular window handle.
 
-```
-@argument windowHandle {String} (optional, default switch tabs between two windows)
-@returns {Web driver Promise}
-```
+`@argument windowHandle {String} (optional, default switch tabs between two windows)`
+
+`@returns {Web driver Promise}`
+
 
 ###### Usage:
-```
+```javascript
 1. nemo.window.switchTab(); //switches focus alternatively
 
    e.g. if two windows, Window A and Window B, are open
@@ -56,7 +56,7 @@ Please find the example at the end.
 `@returns {Web driver Promise}`
 
 ###### Usage:
-```bash
+```javascript
 nemo.window.switchFrame('payPalTarget'); //switch focus to particular frame on page
 ```
 
@@ -69,7 +69,7 @@ Please find the example at the end.
 `@returns {Web driver Promise}`
 
 ###### Usage:
-```bash
+```javascript
 nemo.window.close(); //close the current window
 ```
 #### closeAll()
@@ -79,7 +79,7 @@ Closes all the windows.
 `@returns {Web driver Promise}`
 
 ###### Usage:
-```bash
+```javascript
 nemo.window.closeAll(); //close all the windows
 ```
 #### newWindow(url, name)
@@ -152,7 +152,7 @@ nemo.window.handle().then(callback);
 
 Add `nemo-window` plugin to your `config/config.json` under `plugins` section.
 
-```bash
+```javascript
 
     	"plugins": {
 		    "window": {
