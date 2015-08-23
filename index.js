@@ -30,7 +30,7 @@ module.exports = {
 
 	setup: function(nemo, callback) {
 
-		nemo.window = window(nemo);
+		nemo.window = window(nemo.driver);
 
 		callback(null);
 	}
