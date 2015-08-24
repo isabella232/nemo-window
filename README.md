@@ -1,7 +1,26 @@
 ## nemo-window
 
-`nemo-window` is a plugin for Nemo automation framework. It provides methods to work with multiple browser-windows.
+`nemo-window` is a plugin for [Nemo] (https://github.com/paypal/nemo) automation framework. It provides methods to work with multiple browser-windows.
 
+### Installation
+
+`npm install nemo-window --save-dev`
+
+### Configuration
+
+Add `nemo-window` plugin to your `config/config.json` under `plugins` section.
+
+```javascript
+
+    	"plugins": {
+		    "window": {
+		        "module": "nemo-window"
+		    }
+		 ...
+	},
+	...
+
+```
 
 ### Methods
 ```
@@ -140,29 +159,6 @@ nemo.window.handle().then(callback);
 ```
 
 
-
-
-
-
-### Installation
-
-`npm install nemo-window --save-dev`
-
-### Configuration
-
-Add `nemo-window` plugin to your `config/config.json` under `plugins` section.
-
-```javascript
-
-    	"plugins": {
-		    "window": {
-		        "module": "nemo-window"
-		    }
-		 ...
-	},
-	...
-
-```
 
 ### Example
 ```javascript
