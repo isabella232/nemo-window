@@ -64,13 +64,13 @@ Switches focus to particular Window/Tab in browser.
 
 Please find the example at the end.
 
-#### switchFrame(id)
+#### switchFrame(nameOrIndex)
 
-Switches focus to another frame on page. `id` is required argument.
+Switches focus to another frame on page. `nameOrIndex` is required argument.
 
 Please find the example at the end.
 
-`@argument id {String} (Required)`
+`@argument nameOrIndex {String} (Required)`
 
 `@returns {Web driver Promise}`
 
@@ -111,8 +111,6 @@ Please find the example at the end.
 
 `@arguments url {String} (Optional)`
 `@arguments name {String} (Optional)`
-
-`@returns {Web driver Promise}`
 
 ###### Usage:
 ```javascript
