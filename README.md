@@ -28,7 +28,6 @@ Add `nemo-window` plugin to your `config/config.json` under `plugins` section.
 	nemo.window.switchFrame	: switches focus to new frame on page
 	nemo.window.newWindow	: opens new window
 	nemo.window.close		: close current window
-	nemo.window.closeAll	: close all windows
 	nemo.window.handles		: retrieve all window handles from session
 	nemo.window.handle		: retrieve current window handle
 	nemo.window.mainHandle	: retrieve parent window handle
@@ -91,11 +90,6 @@ Please find the example at the end.
 ```javascript
 nemo.window.close(); //close the current window
 ```
-#### closeAll()
-
-Closes all the windows.
-
-`@returns {Web driver Promise}`
 
 ###### Usage:
 ```javascript
