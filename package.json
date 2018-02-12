@@ -1,6 +1,6 @@
 {
-	"name": "nemo-window",
-	"version": "1.0.3",
+	"name": "nemo-window2",
+	"version": "1.0.0",
 	"description": "Browser window extensions for Nemo automation. A plugin for Nemo.",
 	"main": "index.js",
 	"author": {
@@ -16,11 +16,10 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/gkushang/nemo-window.git"
+		"url": "git+https://github.com/krakenjs/nemo-window.git"
 	},
 	"bugs": {
-		"url": "https://github.com/gkushang/nemo-window/issues",
-		"email": "g.kushang@gmail.com"
+		"url": "https://github.com/krakenjs/nemo-window/issues"
 	},
 	"keywords": [
 		"nemo",
@@ -30,5 +29,5 @@
 		"nemo-window"
 	],
 	"license": "MIT",
-	"homepage": "https://github.com/gkushang/nemo-window#readme"
+	"homepage": "https://github.com/krakenjs/nemo-window#readme"
 }

@@ -1,6 +1,8 @@
+_Note: this module was forked from [gkushang](https://github.com/gkushang) in order to maintain it going forward. It has been renamed `nemo-window2` for the time being._
+
 ## nemo-window
 
-`nemo-window` is a plugin for [Nemo] (https://github.com/paypal/nemo) automation framework. It provides methods to work with multiple browser-windows.
+`nemo-window` is a plugin for [Nemo](https://github.com/paypal/nemo) automation framework. It provides methods to work with multiple browser-windows.
 
 ### Installation
 
