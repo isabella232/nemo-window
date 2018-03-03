@@ -10,7 +10,11 @@
 	"scripts": {
 		"test": "grunt"
 	},
-	"devDependencies": {},
+	"devDependencies": {
+		"grunt": "^1.0.2",
+		"grunt-contrib-jshint": "^1.1.0",
+		"grunt-simple-mocha": "^0.4.1"
+	},
 	"dependencies": {
 		"debug": "^2.1.3"
 	},
