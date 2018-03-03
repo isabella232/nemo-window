@@ -1,6 +1,6 @@
 {
 	"name": "nemo-window2",
-	"version": "1.0.0-alpha.2",
+	"version": "1.0.1",
 	"description": "Browser window extensions for Nemo automation. A plugin for Nemo.",
 	"main": "index.js",
 	"author": {
